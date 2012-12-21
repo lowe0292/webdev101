@@ -13,7 +13,11 @@
 			$(document).ready(function() {
 				alert("The page is done loading!");
 
-				// The following line binds a function to the list elements
+				/* 
+				The following line binds a function to the list elements that is triggered when any list element is clicked. The function alerts the user what is about to happen, then toggles the css class "underline".
+				The underline class is defined in style.css, and all it does is add an underline. Try creating your own class that changes the background color and font color (background-color and color respectively
+				in css), and changing this click function to toggle that class instead of the underline class.	
+				*/
 				$("li").click(function() {
 					alert("Toggling the underline class");
 					$(this).toggleClass("underline");
