@@ -1,0 +1,29 @@
+/* This is a css comment. The following block selects all paragraph elements... */
+p {
+	/* changes their fonts to Arial... */
+	font-family:"Arial";
+	/* and changes the text color to purpleish. In css, colors are given in hex (indicated by the #). The convention is RRGGBB. For each color, 00 is min and ff is max. */
+	color: #aa00aa;
+}
+
+/* The hastag denotes id, so this line selects the one element with the red-background id */
+#red-background {
+	/* full red, no other colors */
+	background-color: #ff0000;
+}
+
+/* The . denotes class, so this line selects all elements with the middle-child class */
+.underline {
+	/* Let's underline the middle ones */
+	text-decoration: underline;
+}
+
+/* list elements and paragraphs default to display block. Uncomment these lines to see how it affects the presentation of the markup.
+li {
+	display: inline;
+}
+
+p {
+	display: inline;
+}
+*/
